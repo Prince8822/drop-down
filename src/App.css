@@ -1,14 +1,11 @@
 
 div .App {
-  margin-top: 9em;
-  margin-bottom: 9em;
-  margin-left: 9em;
-  margin-right: 9em;
+  margin: 9em ;
   background-color: rgb(0, 229, 255);
 }
 
 h1 {
-  margin-left: 700px;
+  margin-left: 680px;
 
 }
 
@@ -27,22 +24,29 @@ ul a, .btn {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 24px 220px;
+  padding: 24px 210px;
   text-decoration: none;
+  font-size: 30px;
+  font-style: italic;
+
 }
 
  a:hover, .drop:hover .btn {
   background-color:wheat;
+  
+
 }
 
 ul.drop {
+
   display: inline-block;
 }
 
 
 .drop-Menu a {
+ 
   color: black;
-  padding: 24px 220px;
+  padding: 24px 230px;
   text-decoration: none;
   display: block;
   text-align: left;

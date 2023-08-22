@@ -2,15 +2,24 @@
 import './App.css';
 
 function App() {
+
+  // ARRAY LIST CREATED
+  const myAr = ['APPLE', 'BANANA', 'ORANGE','MANGO','GRAPES'];
+
   return (
     <div className="App">
-    <h1>Should you use a dropdown?</h1>
+    <h1>SELECT YOUR FAVURITE FRUIT</h1>
   <ul class="drop">
   
-    <a href="" class="btn">Select  </a>
+    <a class="btn">SELECT   </a>
     <div class="drop-Menu">
-      <a href="">yes</a>
-      <a href="">Probably not</a>
+
+    {/* MAP OVER THE ARRAY ITEMS */}
+    {myAr.map((item) => <a href="">{ item}</a>)}
+
+     
+      
+
     </div>
   </ul>
 
